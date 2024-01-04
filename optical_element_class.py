@@ -13,8 +13,6 @@ output plane.
 import numpy as np
 import matplotlib.pyplot as plt
 
-f = open("myPyth.txt", "w")
-
 # CLASSES
 
 
@@ -67,11 +65,6 @@ class SphericalRefraction(OpticalElement):
         self.__n2 = n2  # Refractive index after the surface.
         # Perpendicular distance from the z-axis to the top of the surface.
         self.__ApertureRadius = AR
-
-    def openLogFile(self):
-        f = open("myPyth.txt", "w")
-        f.write("Now the file has more content!")
-        # f.close()
 
     def centre(self):
         """
