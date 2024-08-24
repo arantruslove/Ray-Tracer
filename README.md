@@ -1,5 +1,7 @@
 # Optical Ray Tracer Simulation
 
+Link to report: https://github.com/arantruslove/Ray-Tracer/blob/master/Summary_Report.pdf
+
 ## Project Overview
 
 This project involves the development of a simulation to analyze and optimize optical lens configurations, with a primary focus on minimizing spherical aberration. The simulation compares the performance of various lens types, including plano-convex and optimized lenses, by tracing light rays through these optical systems and evaluating their impact on image formation.
